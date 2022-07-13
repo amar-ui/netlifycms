@@ -8,6 +8,19 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
+    script: [
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
+        scr: "assets/vendor/purecounter/purecounter.js",
+        src: "assets/vendor/aos/aos.js",
+        src: "assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+        src: "assets/vendor/glightbox/js/glightbox.min.js",
+        src: "assets/vendor/isotope-layout/isotope.pkgd.min.js",
+        src: "assets/vendor/swiper/swiper-bundle.min.js",
+        src: "assets/vendor/waypoints/noframework.waypoints.js",
+        src: "assets/vendor/php-email-form/validate.js",
+        scr: "assets/js/main.js"
+      },],
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -21,6 +34,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    'static/assets/css/style.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
